@@ -1,0 +1,19 @@
+/* Indicamos con un selector universal que indique por herencia que se respete el ancho de todas las cajas(box) de los elementos */
+*{
+    box-sizing: border-box;
+}
+/* Aplicamos un selector de etiqueta para darle una altura de 100px */
+div {
+  display: inline;/* Aplicamos display inline para colocar nuestros elementos en linea pero se pierde cada uno como bloque, por eso no acepta la aplicacion de la propiedad width ni heigth*/
+  padding: 10px;/*Agregamos un relleno de 10px para cada box de cada elemento div para que el contenido no esta muy pegado al borde*/
+  margin: 12px;/*Agregamos un margen de 12px para separar entre si los  box de cada elemento div */
+}
+/* Aplicamos un selector de clase para el atributo "class="yellow"" para agregar un color de fondo */
+.yellow {
+  background-color: rgb(255, 170, 2);
+}
+/* Aplicamos un selector de clase para el atributo "class="black"" para agregar  las correspondientes propiedades y su valores */
+.black {
+  background-color: #000; /* Le agregamos un color de fondo negro*/
+  color: white; /* Le agregamos un color de letra blanco para que contraste con el fondo negro*/
+}
